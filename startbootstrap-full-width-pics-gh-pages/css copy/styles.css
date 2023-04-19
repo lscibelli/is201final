@@ -8,7 +8,7 @@ body{
 }
 img{
     display:block; /*each image is it's own line/block*/
-    border: 2px dashed white;
+    border: 2px dashed white !important; 
     padding:15px;
     margin: auto;
 }
