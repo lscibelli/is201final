@@ -1,0 +1,78 @@
+body{
+    font-family:'Courier New', Courier, monospace; /*font*/
+    background-color:pink; (244, 149, 196); /*background color*/
+    /*background-image: url(https://i.pinimg.com/originals/5c/49/b6/5c49b601a34b7fdbe1168d819c4246da.jpg);
+    background-repeat: repeat;
+    background-size: contain; */
+    color:aliceblue /*text color*/
+}
+img{
+    display:block; /*each image is it's own line/block*/
+    border: 2px dashed white;
+    padding:15px;
+    margin: auto;
+}
+a{
+    color:black
+}
+a:visited{
+    color:aliceblue
+}
+li{
+    font-style:normal;
+}
+li:hover{
+    font: size 105%;
+    text-decoration:underline;
+    background-color:cadetblue;
+}
+.gangnem{
+    font-family: chiller;
+    font-style: italic;
+    font-weight: border;
+    color:blueviolet;
+    background-color:antiquewhite;
+    border: 5px dotted white;
+}
+.gangnem:hover{
+   text-align: center;
+   color: gray;
+   font-size: large;
+}
+
+.common{
+    border: 2px solid white;
+    position: absolute;
+}
+.nav{
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: pink;
+}
+.footer{
+    position: fixed;
+    background-color: pink;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+}
+.content{
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.gallery img{
+    display: inline; 
+    width: 19%;
+}
+.heading{
+   color: aliceblue; 
+   font-family: 'Courier New', Courier, monospace;
+}
+.subheading{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
